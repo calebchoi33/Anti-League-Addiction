@@ -28,7 +28,7 @@ async def on_ready():
 
 channel = client.get_channel('1124515281730011301')
 
-api_key = "RGAPI-e0a93cd8-d354-4dd0-aec9-c39a8c71288d"
+api_key = "CHANGE THIS THING"
 api_url = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/walltzy"
 api_url = api_url + '?api_key=' + api_key
 resp = requests.get(api_url)
